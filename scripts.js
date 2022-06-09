@@ -3,7 +3,7 @@
 // const port = process.env.PORT || 5555
 
 // const socket = io('http://localhost:5555')
-const socket = io.connect('https://chatty-matty.herokuapp.com/');
+const socket = io.connect('https://chatty-matt.herokuapp.com/');
 
 const getLocalTime = () => {
     const d = new Date()
